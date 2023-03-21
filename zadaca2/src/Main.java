@@ -54,9 +54,45 @@ public class Main {
 
             } */
 
-        
+            //Zadatak 4.
 
+        /*    int A = 15;
+            int B = 10;
+            int sum = A + B;
+            int difference = B-A;
+            int product = A*B;
+            if (A>B){
+                System.out.println("Zbir " + A + " i " + B+ " je: " + sum);
+            }  else if (A<B) {
+                System.out.println("Razlika " + B + " i " + A+ " je: " + difference);
+            } else if (A==B){
+            System.out.println("Proizvod " + A + " i " + B +" je: " + product);
+        } */
 
-        System.out.println(" ");
+       // Zadatak 5.
+      /*   int X = 1;
+         boolean variable1 = (((((X+X+6)/2)-X)%2) == 0);
+        if  (variable1 == true) {
+            System.out.println("(((( " + X + " + " + X + " + " + " 6 " + ")" + "/2))" + " - " + X + ") je djeljivo sa 2");
+        } else {
+            System.out.println("(((( " + X + " + " + X + " + " + " 6 " + ")" + "/2))" + " - " + X + ") nije djeljivo sa 2");
+
+        } */
+
+       // Zadatak 6.
+            int A,B,C,D;
+            A=1;
+            B=1;
+            C=1;
+            D=1;
+
+            if ( ((A>0) &&(B>0)) || ((C>0) && (D>0))   ) {
+                int sum = A+B+C+D;
+                System.out.println("Zbir je : " + sum);
+
+                if (sum>100)
+            }
+
+        System.out.println();
     }
 }
